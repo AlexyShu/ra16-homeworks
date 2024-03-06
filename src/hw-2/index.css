@@ -1,0 +1,29 @@
+.portfolio {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    padding: 20px 40px;
+}
+
+.portfolioFilter {
+    width: 140px;
+    border: 1px solid black;
+    padding: 10px 0;
+    background: transparent;
+    cursor: pointer;
+}
+
+.activePortfolioFilter {
+    width: 140px;
+    border: 1px solid black;
+    padding: 10px 0;
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+.toolbar {
+    margin-left: 40px;
+    display: flex;
+    gap: 20px;
+}
