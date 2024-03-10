@@ -1,5 +1,5 @@
 import ProjectList from "./ProjectList.jsx";
-import "../index.css";
+import "../../index.css";
 import Toolbar from "./Toolbar.jsx";
 import {useState} from "react";
 

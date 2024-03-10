@@ -27,3 +27,85 @@
     display: flex;
     gap: 20px;
 }
+
+.store {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cards {
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    padding: 20px 40px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    background: #f9f5f5;
+    padding: 20px;
+    width: 240px;
+    border-radius: 4px;
+}
+
+.cardName {
+    font-size: 16px;
+    margin: 0;
+}
+
+.cardColor {
+    font-size: 12px;
+    margin: 0;
+}
+
+.cardPriceWrap {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: orangered;
+    font-size: 16px;
+}
+
+.cardBtn {
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    height: 30px;
+    border: 1px solid orangered;
+    color: orangered;
+    background: transparent;
+    padding: 0 20px;
+}
+
+.switchBtn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: 40px;
+    width: 24px;
+    height: 24px;
+    padding: 0;
+}
+
+.items {
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    background: #f9f5f5;
+    padding: 0 20px;
+    border-radius: 4px;
+}

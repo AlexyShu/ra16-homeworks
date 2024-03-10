@@ -1,9 +1,14 @@
-import Portfolio from "./hw-2/components/Portfolio.jsx";
+import Portfolio from "./hw-2/components/portfolio/Portfolio.jsx";
+import Store from "./hw-2/components/store/Store.jsx";
 
 function App() {
 
   return (
-      <Portfolio />
+      <>
+        <Portfolio />
+        <hr/>
+        <Store/>
+      </>
     )
 }
 
