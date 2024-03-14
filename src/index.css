@@ -1,0 +1,9 @@
+body {
+    font-size: 14px;
+}
+
+.stars {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
