@@ -1,5 +1,5 @@
 import Star from "./Star.jsx";
-import "../../index.css";
+import "../../chat.css";
 
 function Stars({count}) {
 
