@@ -1,15 +1,15 @@
-import ColorConverter from "./hw-4/components/color-converter/ColorConverter.jsx";
-import Workout from "./hw-4/components/workout/Workout.jsx";
+import Cards from "./hw-5/components/cards/Cards.jsx";
+import Yandex from "./hw-5/components/yandex/Yandex.jsx";
 
 function App() {
 
   return (
       <>
-          {/*Конвертер цветов*/}
-          <ColorConverter />
-          <hr/>
-          {/*Учёт тренировок*/}
-          <Workout />
+        {/*Карточки*/}
+        <Cards />
+        <hr />
+        {/*Декомпозиция*/}
+        <Yandex />
       </>
   )
 }
