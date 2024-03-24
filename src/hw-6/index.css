@@ -3,6 +3,7 @@
     grid-gap: 30px;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     padding: 20px 40px;
+    margin-bottom: 80px;
 }
 
 .clockWrapper {
@@ -134,4 +135,56 @@
     background-color: #fff;
     z-index: 12;
     border-radius: 6px 6px 0 0;
+}
+
+.cards {
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    padding: 20px 40px;
+}
+
+.card {
+    display: flex;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    background: #f9f5f5;
+    padding: 20px;
+    width: 240px;
+    border-radius: 4px;
+}
+
+.deleteCard {
+    margin-left: auto;
+}
+
+.updateNotes {
+    display: flex;
+    align-items: center;
+    margin: 40px;
+    gap: 10px;
+}
+
+.noteForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.field {
+    width: 200px;
+    height: 200px;
+}
+
+.update {
+    border: 1px solid green;
+    border-radius: 100%;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    color: green;
 }

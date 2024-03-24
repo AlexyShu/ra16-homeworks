@@ -1,4 +1,5 @@
 import Clock from "./hw-6/components/clock/Clock.jsx";
+import CRUD from "./hw-6/components/crud/CRUD.jsx";
 
 function App() {
 
@@ -6,6 +7,9 @@ function App() {
       <>
           {/*Мировые часы*/}
           <Clock />
+          <hr />
+          {/*CRUD*/}
+          <CRUD />
       </>
   )
 }
