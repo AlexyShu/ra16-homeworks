@@ -1,15 +1,11 @@
-import Cards from "./hw-5/components/cards/Cards.jsx";
-import Yandex from "./hw-5/components/yandex/Yandex.jsx";
+import Clock from "./hw-6/components/clock/Clock.jsx";
 
 function App() {
 
   return (
       <>
-        {/*Карточки*/}
-        <Cards />
-        <hr />
-        {/*Декомпозиция*/}
-        <Yandex />
+          {/*Мировые часы*/}
+          <Clock />
       </>
   )
 }
