@@ -2,7 +2,7 @@ body {
     font-family: 'Mina', sans-serif;
 }
 
-#root {
+.time {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

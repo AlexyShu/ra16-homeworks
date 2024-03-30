@@ -1,6 +1,6 @@
-import "../../index.css";
+import "./index.css";
 import {useState} from "react";
-import VideoList from "./VideoList.jsx";
+import VideoList from "./components/VideoList.jsx";
 
 function TimeApp() {
     const [list, setList] = useState([
@@ -31,7 +31,9 @@ function TimeApp() {
     ]);
 
     return (
-        <VideoList list={list} />
+        <div className="time">
+            <VideoList list={list} />
+        </div>
     );
 }
 

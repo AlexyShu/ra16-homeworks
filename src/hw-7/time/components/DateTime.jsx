@@ -2,7 +2,7 @@ import DateTimePretty from "./DateTimePretty.jsx";
 
 function DateTime(props) {
     return (
-        <p className="date">{props.date} / {props.dateValue}</p>
+        <p className="date">{props.date} ({props.dateValue})</p>
     )
 }
 
