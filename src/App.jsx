@@ -1,17 +1,15 @@
-import TimeApp from "./hw-7/time/TimeApp.jsx";
-import HighlightApp from "./hw-7/highlight/HighlightApp.jsx";
+import List from "./hw-8/details-list/components/List.jsx";
+import HW_8_2 from "./hw-8/use-json-fetch/HW_8_2.jsx";
 
 function App() {
 
   return (
       <>
-          {/*Форматирование даты публикации*/}
-          <h3>Форматирование даты публикации</h3>
-          <TimeApp />
-          <hr />
-          {/*Подсвечивание блоков*/}
-          <h3>Подсвечивание блоков</h3>
-          <HighlightApp />
+          {/*Список и детали*/}
+          <List />
+          <hr/>
+          {/*Кастомный хук*/}
+          <HW_8_2 />
       </>
   )
 }
