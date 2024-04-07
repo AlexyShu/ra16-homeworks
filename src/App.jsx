@@ -1,15 +1,15 @@
-import List from "./hw-8/details-list/components/List.jsx";
-import HW_8_2 from "./hw-8/use-json-fetch/HW_8_2.jsx";
+import AppNavMenu from "./hw-9/nav-menu/AppNavMenu.jsx";
+import AppCRUD from "./hw-9/crud/AppCRUD.jsx";
 
 function App() {
 
   return (
       <>
-          {/*Список и детали*/}
-          <List />
+          {/*Навигационное меню*/}
+          <AppNavMenu />
           <hr/>
-          {/*Кастомный хук*/}
-          <HW_8_2 />
+          {/*CRUD*/}
+          <AppCRUD />
       </>
   )
 }

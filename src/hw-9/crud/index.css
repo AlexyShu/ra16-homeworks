@@ -1,0 +1,89 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.posts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.avatar {
+    border-radius: 100%;
+}
+
+.post {
+    border: 1px solid darkgray;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px
+}
+
+.user-block {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+.user-block-wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    background: #5380F7;
+    border: 0;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    padding: 10px 20px;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    overflow: hidden;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 20px auto;
+}
+
+.btns {
+    display: flex;
+    gap: 20px;
+}
+
+.close-btn {
+    border: none;
+    background: transparent;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.crud {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.empty {
+    font-size: 24px;
+}
+
+.create-post-field {
+    height: 140px;
+}
+
+.create-post {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid darkgray;
+    border-radius: 8px;
+    padding: 10px 40px 0 40px;
+}
