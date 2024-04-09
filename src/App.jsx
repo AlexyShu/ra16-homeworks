@@ -1,17 +1,8 @@
-import AppNavMenu from "./hw-9/nav-menu/AppNavMenu.jsx";
-import AppCRUD from "./hw-9/crud/AppCRUD.jsx";
+import HW8 from "./hw-8/HW8.jsx";
 
 function App() {
 
-  return (
-      <>
-          {/*Навигационное меню*/}
-          <AppNavMenu />
-          <hr/>
-          {/*CRUD*/}
-          <AppCRUD />
-      </>
-  )
+  return <HW8 />
 }
 
 export default App;
