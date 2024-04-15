@@ -1,6 +1,6 @@
 import {useEffect, useRef, useState} from "react";
 import {useDispatch, useSelector} from "react-redux";
-import changeList from "../../redux/changeList.js";
+import changeList from "../redux/changeList.js";
 
 function Search() {
     const dispatch = useDispatch();

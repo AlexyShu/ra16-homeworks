@@ -1,12 +1,13 @@
-import HW10App from "./hw-10/HW10App.jsx";
+import AppReduxToolkit from "./hw-11/AppReduxToolkit.jsx";
 import {Provider} from "react-redux";
-import configureStore from "./redux/store.js";
+import {store} from "./store";
+
 
 function App() {
 
   return (
-      <Provider store={configureStore()}>
-        <HW10App />
+      <Provider store={store}>
+        <AppReduxToolkit />
       </Provider>
   )
 }

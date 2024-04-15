@@ -1,6 +1,6 @@
 import {useState} from "react";
 import {useDispatch} from "react-redux";
-import addItemInList from "../../redux/addItemInList.js";
+import addItemInList from "../redux/addItemInList.js";
 
 const DEFAULT_FORM = {
     value: '',
