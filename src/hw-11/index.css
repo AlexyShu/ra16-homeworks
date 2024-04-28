@@ -1,9 +1,0 @@
-.searchWrap {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.search {
-    width: 400px;
-}
